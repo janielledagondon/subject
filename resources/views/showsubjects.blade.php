@@ -11,6 +11,7 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                     this is where {{ Auth::user()->username }} can see subjects! <br>
                     Current User: {{ Auth::user()->username }}
+                    <x-view></x-view>
                 </div>
             </div>
         </div>
